@@ -1,6 +1,5 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
+	<head>
     <meta charset="utf-8">
     <title>Bootstrap Form Builder</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,7 @@
     <meta name="author" content="">
 
     <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/lib/bootstrap-responsive.min.css" rel="stylesheet">
+    <!--<link href="assets/css/lib/bootstrap-responsive.min.css" rel="stylesheet">-->
     <link href="assets/css/custom.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,19 +19,20 @@
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   </head>
 
-  <body>
+  
+<body>
     <a href="https://github.com/minikomi/Bootstrap-Form-Builder/"><img style="z-index: 100000; position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="#">Bootstrap Form Builder</a>
-        </div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+      <div class="navbar-header">
+          <a class="navbar-brand" href="#">Bootstrap Form Builder</a>        
       </div>
-    </div>
+	  </div>
+    </nav>
     <div class="container">
       <div class="row clearfix">
         <!-- Building Form. -->
-        <div class="span6">
+        <div class="col-md-6">
           <div class="clearfix">
             <h2>Your Form</h2>
             <hr>
@@ -45,14 +45,14 @@
         <!-- / Building Form. -->
 
         <!-- Components -->
-        <div class="span6">
+        <div class="col-md-6">
           <h2>Drag & Drop components</h2>
           <hr>
           <div class="tabbable">
             <ul class="nav nav-tabs" id="formtabs">
               <!-- Tab nav -->
             </ul>
-            <form class="form-horizontal" id="components">
+            <form class="form-horizontal" id="components" role="form">
               <fieldset>
                 <div class="tab-content">
                   <!-- Tabs of snippets go here -->
@@ -66,7 +66,7 @@
       </div>
 
       <div class="row clearfix">
-        <div class="span12">
+        <div class="col-md-12">
           <hr>
           By Adam Moore (<a href="http://twitter.com/minikomi" >@minikomi</a>).<br/>
           Source on (<a href="https://github.com/minikomi/Bootstrap-Form-Builder" >Github</a>).
@@ -75,6 +75,6 @@
 
     </div> <!-- /container -->
 
-    <script data-main="assets/js/main-built.js" src="assets/js/lib/require.js" ></script>
+    <script data-main="assets/js/main.js" src="assets/js/lib/require.js" ></script>
   </body>
 </html>

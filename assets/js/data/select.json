@@ -25,32 +25,32 @@
         "type": "select",
         "value": [
           {
-            "value": "input-mini",
+            "value": "col-md-1",
             "label": "Mini",
             "selected": false
           },
           {
-            "value": "input-small",
+            "value": "col-md-2",
             "label": "Small",
             "selected": false
           },
           {
-            "value": "input-medium",
+            "value": "col-md-4",
             "label": "Medium",
-            "selected": false
+            "selected": true
           },
           {
-            "value": "input-large",
+            "value": "col-md-5",
             "label": "Large",
             "selected": false
           },
           {
-            "value": "input-xlarge",
+            "value": "col-md-6",
             "label": "Xlarge",
-            "selected": true
+            "selected": false
           },
           {
-            "value": "input-xxlarge",
+            "value": "col-md-8",
             "label": "Xxlarge",
             "selected": false
           }
@@ -84,32 +84,32 @@
         "type": "select",
         "value": [
           {
-            "value": "input-mini",
+            "value": "col-md-1",
             "label": "Mini",
             "selected": false
           },
           {
-            "value": "input-small",
+            "value": "col-md-2",
             "label": "Small",
             "selected": false
           },
           {
-            "value": "input-medium",
+            "value": "col-md-4",
             "label": "Medium",
-            "selected": false
+            "selected": true
           },
           {
-            "value": "input-large",
+            "value": "col-md-5",
             "label": "Large",
             "selected": false
           },
           {
-            "value": "input-xlarge",
+            "value": "col-md-6",
             "label": "Xlarge",
-            "selected": true
+            "selected": false
           },
           {
-            "value": "input-xxlarge",
+            "value": "col-md-8",
             "label": "Xxlarge",
             "selected": false
           }

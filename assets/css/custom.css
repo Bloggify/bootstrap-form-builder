@@ -12,6 +12,7 @@ body {
 
 #components {
   min-height: 500px;
+margin-top:5px;
 }
 
 #target fieldset {
@@ -78,11 +79,11 @@ form .popover .control-label {
 }
 
 form .popover form {
-  width: 224px;
+  width: 300px;
 }
 
 .popover-content form .btn{
-  margin-right: 10px
+  /* margin-right: 10px */
 }
 
 .target:after{
