@@ -2,7 +2,7 @@
 
 ##What's this?
 
-A Drag-and-drop form builder for [twitter bootstrap](http://twitter.github.com/bootstrap/). 
+A Drag-and-drop form builder for [twitter bootstrap](http://getbootstrap.com/). 
 
 Currently using `v. 3.0.0` :dolphin:
 
