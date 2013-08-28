@@ -1,4 +1,4 @@
-#Bootstrap v 3 Form Builder
+#Bootstrap v 3.0.0 Form Builder
 
 ##What's this?
 
@@ -8,7 +8,7 @@ Currently using `v. 3.0.0` :dolphin:
 
 ##Where can I see it in action using bootstrap v 2.3.1 thanks to [minikomi](https://github.com/minikomi/Bootstrap-Form-Builder/)?
 
-It's hosted on github pages [here](http://minikomi.github.io/Bootstrap-Form-Builder/).
+And It's hosted on github pages [here](http://ihabsoliman.github.io/Bootstrap-Form-Builder) using bootstrap v 3.0.0
 
 ###Notes
 
