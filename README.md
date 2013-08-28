@@ -4,13 +4,15 @@
 
 A Drag-and-drop form builder for [twitter bootstrap](http://twitter.github.com/bootstrap/). 
 
-Currently using `v. 2.3.1` :dolphin:
+Currently using `v. 3.0.0` :dolphin:
 
-##Where can I see it in action?
+##Where can I see it in action using bootstrap v 2.3.1 thanks to [minikomi](https://github.com/minikomi/Bootstrap-Form-Builder/)?
 
 It's hosted on github pages [here](http://minikomi.github.io/Bootstrap-Form-Builder/).
 
 ###Notes
+
+* This project is still under development.
 
 * For development & debugging change the data-main for the require script tag in `index.html` 
   to point at `assets/js/main.js`. (Look just before the closing `<body>` tag!)
