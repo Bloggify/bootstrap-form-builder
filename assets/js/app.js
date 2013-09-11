@@ -1,5 +1,5 @@
 define([
-       "jquery" , "underscore" , "backbone"
+       "jquery" , "underscore" , "backbone" 
        , "collections/snippets" , "collections/my-form-snippets"
        , "views/tab" , "views/my-form"
        , "text!data/input.json", "text!data/radio.json", "text!data/select.json", "text!data/buttons.json"
@@ -29,16 +29,16 @@ define([
       });
       new TabView({
         title: "Buttons"
-        , collection: new SnippetsCollection(JSON.parse(buttonsJSON))
-      });
+       , collection: new SnippetsCollection(JSON.parse(buttonsJSON))
+     });
       new TabView({
         title: "Rendered"
         , content: renderTab
       });
-      new TabView({
-        title: "About"
-        , content: aboutTab
-      });
+       new TabView({
+         title: "About"
+         , content: aboutTab
+       });
 
       //Make the first tab active!
       $("#components .tab-pane").first().addClass("active");

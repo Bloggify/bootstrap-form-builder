@@ -20,7 +20,7 @@ define([
       var that = this;
       //popover
       $(".popover").remove();
-      this.$el.popover("show");
+      this.$el.popover({ placement: 'left' }).popover("show");
       $(".popover #save").on("click", this.saveHandler(that));
       $(".popover #cancel").on("click", this.cancelHandler(that));
       //add drag event for all but form name
@@ -52,7 +52,7 @@ define([
         mouseEvent.preventDefault();
         var fields = $(".popover .field");
         _.each(fields, function(e){
-
+		debugger;
           var $e = $(e)
           , type = $e.attr("data-type")
           , name = $e.attr("id");

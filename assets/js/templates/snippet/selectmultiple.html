@@ -2,8 +2,8 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="<%= id %>"><%= label %></label>
   <div class=<% if ( inputsize.length <= 0){ %>  "col-md-4" <%}else { %> "<%= inputsize %>"<%}%>>
-    <select id="<%= id %>" name="<%= id %>" class="form-control" multiple="multiple"><% _.each(options, function(option) { %>
-      <option><%= option %></option><% }); %>
+    <select id="<%= id %>" name="<%= id %>" class="form-control" multiple="multiple"><% _.each(options, function(option,i) { %>
+      <option value="<%= values[i] %>"><%= option %></option><% }); %>
     </select>
   </div>
 </div>

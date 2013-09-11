@@ -3,7 +3,7 @@
   <label class="col-md-4 control-label" for="<%= name %>"><%= label %></label>
   <div class="col-md-4"><% _.each(radios, function(radio, i){ %> 
     <label class="radio-inline" for="<%= name+'-'+i %>">
-      <input type="radio" name="<%= name %>" id="<%= name+'-'+i %>" value="<%= radio %>"  <% if (i < 1) { %> checked="checked" <% } %>>
+      <input type="radio" name="<%= name %>" id="<%= name+'-'+i %>" value="<%= radiosValues[i] %>"  <% if (i < 1) { %> checked="checked" <% } %>>
       <%= radio %>
     </label><% }); %>
   </div>

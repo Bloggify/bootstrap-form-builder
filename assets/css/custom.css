@@ -17,9 +17,9 @@ margin-top:5px;
 
 #target fieldset {
   border: 1px solid #ccc;
-  min-height: 200px;
+  min-height: 220px;
   padding: 5px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .component {
@@ -33,7 +33,9 @@ input {
 textarea {
   resize: vertical;
 }
-
+.popover {
+  z-index: 9999;
+}
 .popover .control-group {
   cursor: default;
 }
@@ -89,7 +91,7 @@ form .popover form {
 .target:after{
   float:left;
   content: " ";
-  height: 77px; 
+  height: 77px;
   margin-top: 3px;
   background: #f0f0f0;
   width: 100%;

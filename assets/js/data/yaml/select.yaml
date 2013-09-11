@@ -13,6 +13,10 @@
       label  : Options
       type   : textarea-split
       value  : ["Option one", "Option two"]
+    values:
+    	label	 : Values
+    	type	 : textarea-split
+    	value	 : ["1", "2"]
     inputsize:
       label: Input Size
       type: select
@@ -56,6 +60,10 @@
       label  : Options
       type   : textarea-split
       value  : ["Option one", "Option two"]
+    values:
+    	label	 : Values
+    	type	 : textarea-split
+    	value	 : ["1", "2"]
     inputsize:
       label: Input Size
       type: select

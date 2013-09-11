@@ -4,7 +4,7 @@
   <div class="col-md-4"><% _.each(checkboxes, function(checkbox, i){ %>
   <div class="checkbox">
     <label for="<%= name+'-'+i %>">
-      <input type="checkbox" name="<%= name %>" id="<%= name+'-'+i %>" value="<%= checkbox %>">
+      <input type="checkbox" name="<%= name %>" id="<%= name+'-'+i %>" value="<%= checkboxesValues[i] %>">
       <%= checkbox %>
     </label>
 	</div><% }); %>

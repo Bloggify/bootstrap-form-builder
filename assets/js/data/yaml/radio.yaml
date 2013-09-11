@@ -13,6 +13,10 @@
       label  : Radios
       type   : textarea-split
       value  : ["Option one", "Option two"]
+    radiosValues:
+    	label  : Radios Values
+    	type	 : textarea-split
+    	value	 : ["1", "2"]
 -
   title  : Multiple Radios Inline
   fields : 
@@ -28,6 +32,10 @@
       label  : Radios
       type   : textarea-split
       value  : [1,2,3,4]
+    radiosValues:
+    	label  : Radios Values
+    	type	 : textarea-split
+    	value	 : ["1", "2", "3", "4"]
 -
   title  : Multiple Checkboxes
   fields : 
@@ -43,6 +51,10 @@
       label  : Checkboxes
       type   : textarea-split
       value  : ["Option one", "Option two"]
+	checkboxesValues
+	  label  : Checkboxes Values
+	  type   : textarea-split
+	  value  : [""1, "2"]
 -
   title  : Multiple Checkboxes Inline
   fields : 
@@ -58,3 +70,7 @@
       label  : Checkboxes
       type   : textarea-split
       value  : [1,2,3,4]
+	checkboxesValues
+	  label  : Checkboxes Values
+	  type   : textarea-split
+	  value  : [""1, "2", "3", "4"]

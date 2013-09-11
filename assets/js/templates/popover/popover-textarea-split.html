@@ -1,6 +1,6 @@
 <div class="form-group">
 	<label class="col-md-12 control-label"> <%= label %> </label>
 	<div class="col-md-10">
-	<textarea class="form-control field" data-type="<%= type %>" style='min-height: 200px' id='<%= name %>'><% for ( var i = 0; i < value.length ; i++ ) { %><%= value[i] %><% if (i < value.length - 1) { %><%= "\n" %><% } %><% } %></textarea>
+	<textarea class="form-control field" data-type="<%= type %>" id='<%= name %>'><% for ( var i = 0; i < value.length ; i++ ) { %><%= value[i] %><% if (i < value.length - 1) { %><%= "\n" %><% } %><% } %></textarea>
 	</div>
 </div>
