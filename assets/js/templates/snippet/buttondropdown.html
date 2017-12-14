@@ -1,18 +1,19 @@
 <!-- Button Drop Down -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="<%= id %>"><%= label %></label>
-  <div class=<% if ( inputsize.length <= 0){ %>  "col-md-4" <%}else { %> "<%= inputsize %>"<%}%>>
-    <div class="input-group">
-      <input id="<%= id %>" name="<%= id %>" class="form-control" placeholder="<%= placeholder %>" type="text" <% if(required) {%> required <% } %> />
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          <%= buttontext %>
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu pull-right"><% _.each(buttonoptions, function(value) { %>
-          <li><a href="#"><%= value %></a></li><% }); %>
-        </ul>
-      </div>
+<div class="form-group row">
+    <label class="col-md-4 col-form-label" for="<%= id %>"><%= label %></label>
+    <div class=<% if ( inputsize.length <= 0){ %>  "col-md-4" <%}else { %> "<%= inputsize %>"<%}%>>
+        <div class="input-group">
+            <div class="input-group-btn">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <%= buttontext %>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><% _.each(buttonoptions, function(value) { %>
+                        <a class="dropdown-item" href="#"><%= value %></a><% }); %>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
+

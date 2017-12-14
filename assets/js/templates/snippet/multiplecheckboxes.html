@@ -1,12 +1,12 @@
-<!-- Multiple Checkboxes -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="<%= name %>"><%= label %></label>
-  <div class="col-md-4"><% _.each(checkboxes, function(checkbox, i){ %>
-  <div class="checkbox">
-    <label for="<%= name+'-'+i %>">
-      <input type="checkbox" name="<%= name %>" id="<%= name+'-'+i %>" value="<%= checkboxesValues[i] %>">
-      <%= checkbox %>
-    </label>
-	</div><% }); %>
-  </div>
+<!-- <%= label %> | Multiple Checkboxes -->
+<div class="form-group row">
+    <label class="col-md-4 col-form-label"><%= label %></label>
+    <div class="col-md-8"><% _.each(checkboxes, function(checkbox, i){ %>
+        <div class="checkbox">
+            <label for="<%= name+'-'+i %>">
+                <input type="checkbox" name="<%= name %>" id="<%= name+'-'+i %>" value="<%= checkboxesValues[i] %>">
+                <%= checkbox %>
+            </label>
+        </div><% }); %>
+    </div>
 </div>

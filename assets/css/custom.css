@@ -1,5 +1,5 @@
 body {
-  padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+  padding-top: 10px; /* 50px to make the container go all the way to the bottom of the topbar */
   padding-bottom: 10px;
   position: relative;
 }
@@ -111,3 +111,5 @@ form .popover form {
  width: 100%;
  overflow: hidden;
 }
+
+label { font-weight: bold; }

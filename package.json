@@ -1,0 +1,46 @@
+{
+  "name": "bootstrap-form-builder-v4",
+  "version": "1.0.0",
+  "description": "A drag-and-drop form builder for Bootstrap 4.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/r.js -o assets/js/lib/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bloggify/bootstrap-builder.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "builder",
+    "drag",
+    "drop"
+  ],
+  "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bloggify/bootstrap-builder/issues"
+  },
+  "homepage": "https://github.com/Bloggify/bootstrap-builder#readme",
+  "devDependencies": {
+    "requirejs": "^2.3.5"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json"
+  ],
+  "blah": {
+      "title": "Bootstrap v4 Form Builder"
+  }
+}

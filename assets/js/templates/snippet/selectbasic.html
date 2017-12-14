@@ -1,9 +1,9 @@
-<!-- Select Basic -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="<%= id %>"><%= label %></label>
-  <div class=<% if ( inputsize.length <= 0){ %>  "col-md-4" <%}else { %> "<%= inputsize %>"<%}%>>
-    <select id="<%= id %>" name="<%= id %>" class="form-control"><% _.each(options, function(option,i) { %>
-      <option value="<%= values[i] %>"><%= option %></option><% }); %>
-    </select>
-  </div>
+<!-- <%= label %> | Select Basic -->
+<div class="form-group row">
+    <label class="col-md-4 col-form-label" for="<%= id %>"><%= label %></label>
+    <div class=<% if ( inputsize.length <= 0){ %>  "col-md-4" <%}else { %> "<%= inputsize %>"<%}%>>
+        <select id="<%= id %>" name="<%= id %>" class="form-control"><% _.each(options, function(option,i) { %>
+            <option value="<%= values[i] %>"><%= option %></option><% }); %>
+        </select>
+    </div>
 </div>

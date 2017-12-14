@@ -1,9 +1,9 @@
 define([
-       "jquery" , "underscore" , "backbone" 
+       "jquery" , "underscore" , "backbone"
        , "collections/snippets" , "collections/my-form-snippets"
        , "views/tab" , "views/my-form"
        , "text!data/input.json", "text!data/radio.json", "text!data/select.json", "text!data/buttons.json"
-       , "text!templates/app/render.html",  "text!templates/app/about.html", 
+       , "text!templates/app/render.html",  "text!templates/app/about.html",
 ], function(
   $, _, Backbone
   , SnippetsCollection, MyFormSnippetsCollection
@@ -42,7 +42,7 @@ define([
 
       //Make the first tab active!
       $("#components .tab-pane").first().addClass("active");
-      $("#formtabs li").first().addClass("active");
+      $("#formtabs li a").first().addClass("active");
       // Bootstrap "My Form" with 'Form Name' snippet.
       new MyFormView({
         title: "Original"

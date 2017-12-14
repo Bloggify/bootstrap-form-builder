@@ -1,11 +1,11 @@
-<!-- Prepended text-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="<%= id %>"><%= label %></label>
-  <div class=<% if ( inputsize.length <= 0){ %>  "col-md-4" <%}else { %> "<%= inputsize %>"<%}%> >
-    <div class="input-group">
-      <span class="input-group-addon"><%= prepend %></span>
-      <input id="<%= id %>" name="<%= id %>" class="form-control" placeholder="<%= placeholder %>" type="text"<% if(required) {%> required <% } %> />
+<!-- <%= label %> | Prepended text -->
+<div class="form-group row">
+    <label class="col-md-4 col-form-label" for="<%= id %>"><%= label %></label>
+    <div class=<% if ( inputsize.length <= 0){ %>  "col-md-4" <%}else { %> "<%= inputsize %>"<%}%> >
+        <div class="input-group">
+            <div class="input-group-addon"><%= prepend %></div>
+            <input <% if (helptext.length > 0) { %> aria-describedby="<%= id %>HelpBlock" <% } %>id="<%= id %>" name="<%= id %>" class="form-control" placeholder="<%= placeholder %>" type="text"<% if(required) {%> required <% } %> />
+        </div>
+        <% if (helptext.length > 0) { %><small id="<%= id %>HelpBlock" class="text-muted"><%= helptext %></small><% } %>
     </div>
-    <% if (helptext.length > 0) { %><p class="help-block"><%= helptext %></p><% } %>
-  </div>
 </div>
