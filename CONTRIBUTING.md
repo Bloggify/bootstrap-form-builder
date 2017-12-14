@@ -61,6 +61,6 @@ Thanks! :sweat_smile:
 
 
 
-[1]: https://github.com/Bloggify/bootstrap-builder/issues
+[1]: https://github.com/Bloggify/bootstrap-form-builder/issues
 
 [2]: https://github.com/IonicaBizau/code-style
