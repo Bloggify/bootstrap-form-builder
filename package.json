@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-form-builder-v4",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A drag-and-drop form builder for Bootstrap 4.",
   "main": "lib/index.js",
   "scripts": {
