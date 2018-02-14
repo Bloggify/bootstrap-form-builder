@@ -15,12 +15,10 @@ define(function(require) {
   , multipleradiosinline     = require('text!templates/snippet/multipleradiosinline.html')
   , passwordinput            = require('text!templates/snippet/passwordinput.html')
   , prependedcheckbox        = require('text!templates/snippet/prependedcheckbox.html')
-  , prependedtext            = require('text!templates/snippet/prependedtext.html')
   , searchinput              = require('text!templates/snippet/searchinput.html')
   , selectbasic              = require('text!templates/snippet/selectbasic.html')
   , selectmultiple           = require('text!templates/snippet/selectmultiple.html')
-  , textarea                 = require('text!templates/snippet/textarea.html')
-  , textinput                = require('text!templates/snippet/textinput.html');
+  , textarea                 = require('text!templates/snippet/textarea.html');
 
   return {
     formname                   : formname
@@ -39,11 +37,9 @@ define(function(require) {
     , multipleradiosinline     : multipleradiosinline
     , passwordinput            : passwordinput
     , prependedcheckbox        : prependedcheckbox
-    , prependedtext            : prependedtext
     , searchinput              : searchinput
     , selectbasic              : selectbasic
     , selectmultiple           : selectmultiple
     , textarea                 : textarea
-    , textinput                : textinput
   }
 });
