@@ -1,10 +1,8 @@
-<!-- <%= label %> | Text input-->
+<!-- <%= label %> | Date input-->
 <div class="form-group row">
     <label class="col-md-4 col-form-label" for="<%= id %>"><%= label %></label>
-    <div class=<% if ( inputsize.length <= 0){ %> "col-md-8" <%}else { %> "<%= inputsize %>" <%}%> >
-        <input <% if (helptext.length > 0) { %> aria-describedby="<%= id %>HelpBlock" <% } %>id="<%= id %>"
-        name="<%= id %>" type="date" placeholder="<%= placeholder %>" class="form-control input-md" <% if(required) {%>
-        required <% } %> />
-    <% if (helptext.length > 0) { %><small id="<%= id %>HelpBlock" class="text-muted"><%= helptext %></small><% } %>
-</div>
+    <div>
+        <input id="<%= id %>" name="<%= id %>" type="date" class="form-control input-md" <% if(required) {%> required
+            <% } %> />
+    </div>
 </div>

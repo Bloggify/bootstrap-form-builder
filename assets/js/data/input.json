@@ -577,22 +577,22 @@
     }
   },
   {
-    "title": "Date",
+    "title": "Date Input",
     "fields": {
       "id": {
         "label": "ID / Name",
-        "type": "date",
-        "value": null
+        "type": "input",
+        "value": "date_input"
       },
       "label": {
         "label": "Label Text",
-        "type": "date",
-        "value": "Text Area"
+        "type": "input",
+        "value": "Date Input"
       },
-      "input": {
-        "label": "Starting Text",
-        "type": "date",
-        "value": "default text"
+      "required": {
+        "label": "Required",
+        "type": "checkbox",
+        "value": false
       }
     }
   }
