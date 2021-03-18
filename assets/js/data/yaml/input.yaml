@@ -441,3 +441,18 @@
       label  : Starting Text
       type   : textarea
       value  : default text
+- 
+  title: Date
+  fields:
+    id:
+      label: ID / Name
+      type: date
+      value:
+    label:
+      label: Label Text
+      type: date
+      value: Text Area
+    input:
+      label: Starting Text
+      type: date
+      value: default text

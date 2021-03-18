@@ -20,14 +20,14 @@
           "Option two"
         ]
       },
-		"radiosValues" :{
-			"label" : "Radios Values",
-			"type" : "textarea-split",
-			"value" :[
-				"1",
-				"2"
-			] 
-		}
+      "radiosValues": {
+        "label": "Radios Values",
+        "type": "textarea-split",
+        "value": [
+          "1",
+          "2"
+        ]
+      }
     }
   },
   {
@@ -53,16 +53,16 @@
           4
         ]
       },
-		"radiosValues" :{
-			"label" : "Radios Values",
-			"type" : "textarea-split",
-			"value" :[
-				"1",
-				"2",
-				"3",
-				"4"
-			] 
-		}
+      "radiosValues": {
+        "label": "Radios Values",
+        "type": "textarea-split",
+        "value": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
     }
   },
   {
@@ -86,14 +86,14 @@
           "Option two"
         ]
       },
-	  "checkboxesValues":{
-		"label" : "Checkboxes Values",
-		"type" : "textarea-split",
-		"value" : [
-			"1",
-			"2"
-		]		
-	  }
+      "checkboxesValues": {
+        "label": "Checkboxes Values",
+        "type": "textarea-split",
+        "value": [
+          "1",
+          "2"
+        ]
+      }
     }
   },
   {
@@ -119,16 +119,16 @@
           4
         ]
       },
-	  "checkboxesValues":{
-		"label" : "Checkboxes Values",
-		"type" : "textarea-split",
-		"value" : [
-			"1",
-			"2",
-			"3",
-			"4"
-		]		
-	  }
+      "checkboxesValues": {
+        "label": "Checkboxes Values",
+        "type": "textarea-split",
+        "value": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
     }
   }
 ]

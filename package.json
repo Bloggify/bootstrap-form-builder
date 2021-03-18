@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Bloggify/bootstrap-form-builder#readme",
   "devDependencies": {
-    "requirejs": "^2.3.5"
+    "requirejs": "^2.3.6"
   },
   "files": [
     "bin/",
