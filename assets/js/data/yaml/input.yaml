@@ -130,6 +130,20 @@
         - value: input-xxlarge
           label: Xxlarge
           selected: false
+- title: Date Input
+  fields:
+    id:
+      label: ID / Name
+      type: input
+      value: date_input
+    label:
+      label: Label Text
+      type: input
+      value: Date Input
+    required:
+      label: Required
+      type: checkbox
+      value: false
 - title: Prepended Text
   fields:
     id:
@@ -384,17 +398,3 @@
       label: Starting Text
       type: textarea
       value: default text
-- title: Date Input
-  fields:
-    id:
-      label: ID / Name
-      type: input
-      value: date_input
-    label:
-      label: Label Text
-      type: input
-      value: Date Input
-    required:
-      label: Required
-      type: checkbox
-      value: false
