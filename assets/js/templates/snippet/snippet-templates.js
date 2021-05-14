@@ -16,6 +16,7 @@ define(function(require) {
   , passwordinput            = require('text!templates/snippet/passwordinput.html')
   , prependedcheckbox        = require('text!templates/snippet/prependedcheckbox.html')
   , searchinput              = require('text!templates/snippet/searchinput.html')
+  , dateinput              = require('text!templates/snippet/dateinput.html')
   , selectbasic              = require('text!templates/snippet/selectbasic.html')
   , selectmultiple           = require('text!templates/snippet/selectmultiple.html')
   , textarea                 = require('text!templates/snippet/textarea.html');
@@ -25,6 +26,7 @@ define(function(require) {
     , prependedtext            : prependedtext
     , search                   : search
     , textinput                : textinput
+    , dateinput                : dateinput
     , appendedcheckbox         : appendedcheckbox
     , appendedtext             : appendedtext
     , filebutton               : filebutton
